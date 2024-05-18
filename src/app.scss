@@ -1,0 +1,21 @@
+.login-container {
+    padding: 20px;
+    background: #fff;
+    color: #000;
+    border-radius: 20px;
+
+    .login-form {
+        margin: 0 auto;
+    }
+
+}
+
+.ant-form-item-explain-error {
+    text-align: left !important;
+}
+
+
+.ant-btn {
+    min-width: 7rem;
+    min-height: 40px !important;
+}
