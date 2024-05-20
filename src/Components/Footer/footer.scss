@@ -1,0 +1,20 @@
+.footer-container {
+    padding: 8px 30px 8px 30px;
+    border-radius: 41px;
+    margin-top: 10px;
+    text-align: left;
+    border-radius: 40px;
+    a {
+        height: 35px;
+        padding: 8px 20px 10px 20px;
+        gap: 8px;
+        border-radius: 40px;
+        margin-left: 14px;
+        background: rgba(106, 210, 255, 0.1098039216);
+        color: #BBE2FF;
+    }
+
+    span {
+        margin-right: 10px;
+    }
+}
