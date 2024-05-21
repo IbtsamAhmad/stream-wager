@@ -13,7 +13,9 @@ function Header() {
   const [user, setUser] = useState("");
   const navigate = useNavigate();
 
-  const handleClick = () => setClick(!click);
+  const handleClick = () => {
+    console.log("111")
+    setClick(!click)};
   const closeMobileMenu = () => setClick(false);
 
   useEffect(() => {

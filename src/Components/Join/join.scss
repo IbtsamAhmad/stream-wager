@@ -1,0 +1,34 @@
+.join-container {
+ 
+    .join-content{
+        margin: 5rem 0px; 
+        h1 {
+            font-size: 125.26px;
+            font-weight: 800;
+            line-height: 120px;
+            text-align: center;
+            background: linear-gradient(90deg, #0075FF 0%, #61E58E 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-transform: uppercase;
+    
+        }
+        .info{
+            max-width: 790px;
+            text-align: center;
+            margin: 0 auto;
+        }
+    
+        .submit-btn {
+            color: #BBE2FF !important;
+            background: linear-gradient(180deg, rgba(51, 86, 139, 0.2) 0%, rgba(0, 117, 255, 0.2) 100%) !important;
+            box-shadow: 0px -1.5px 7.3px 0px #0075FF inset;
+            border: 1px solid linear-gradient(180deg, #708899 58.5%, #BBE2FF 100%);
+            min-width: 8rem;
+            height: 44px;
+            margin: 25px auto 5px auto;
+            display: block;
+        }
+    }
+
+}
