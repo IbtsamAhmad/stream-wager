@@ -1,0 +1,28 @@
+.faq-container{
+    position: relative;
+    margin-top: 15rem;
+    .circle-bg {
+        position: absolute;
+        top: -15%;
+        left: 27%;    
+        img {
+            width: 100%;
+        }
+    }
+}
+
+
+@media (max-width: 750px) {
+   
+    .faq-container{
+
+        margin-top: 7rem;
+        .circle-bg {
+            top: -7%;
+            left: 0%;
+            img {
+        
+            }
+        }
+    }
+}

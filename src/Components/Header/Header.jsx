@@ -49,10 +49,10 @@ function Header() {
             <Link to="/">Home</Link>
           </li>
           <li className="option" onClick={closeMobileMenu}>
-            <Link to="/">List bets</Link>
+            <Link to="/list-bets">List bets</Link>
           </li>
           <li className="option" onClick={closeMobileMenu}>
-            <Link to="/">FAQs</Link>
+            <Link to="/faqs">FAQs</Link>
           </li>
           <li className="option mobile-option" onClick={closeMobileMenu}>
             <Link to="/">Sign in</Link>

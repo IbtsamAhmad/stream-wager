@@ -13,6 +13,8 @@ import "./app.scss";
 import { ConfigProvider } from "antd";
 import Home from "./pages/Home.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
+import FaqPage from "./pages/Faq/FaqPage.jsx";
+import ListBets from "./pages/ListBets.jsx";
 
 function App() {
   return (
@@ -45,6 +47,8 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/login" element={<Login />} />
               <Route path="/register" element={<Register />} />
+              <Route path="/faqs" element={<FaqPage />} />
+              <Route path="/list-bets" element={<ListBets/>} />
             </Routes>
             <Footer/>
           </div>

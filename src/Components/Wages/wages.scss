@@ -1,0 +1,249 @@
+.wages-container {
+
+    .wages-content {
+        margin-top: 30px;
+
+        .ant-tabs-nav {
+            &::before {
+                display: none !important;
+            }
+        }
+
+        .ant-tabs-nav-list {
+            gap: 15px !important;
+        }
+
+        .ant-tabs-tab-btn {
+            color: #BBE2FF !important;
+            font-size: 18px !important;
+        }
+
+        .ant-tabs-tab-active {
+            .ant-tabs-tab-btn {
+                background: linear-gradient(90deg, #0075FF 0%, #61E58E 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+
+            }
+
+        }
+
+        .ant-tabs-ink-bar {
+            background: linear-gradient(90deg, #0075FF 0%, #61E58E 100%) !important;
+        }
+
+        h1 {
+            margin: 30px 0px;
+            text-align: left;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+
+            span {
+                margin-left: 10px;
+            }
+        }
+
+        .wages-radio {
+            display: flex;
+            align-items: center;
+
+            .ant-radio-button-wrapper {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 15px !important;
+                background: rgba(0, 112, 235, 0.2509803922) !important;
+                color: #BBE2FF !important;
+
+                border-radius: 37px;
+                border: none !important;
+                height: 40px !important;
+                padding: 0 20px !important;
+                // border: 1px solid;
+
+                border-image-source: linear-gradient(180deg, rgba(0, 117, 255, 0.25) 0%, rgba(4, 7, 9, 0.25) 70%);
+
+                &::before {
+                    display: none !important;
+                }
+            }
+
+            .ant-radio-button-wrapper-checked {
+                span {
+                    background: linear-gradient(90deg, #0075FF 0%, #61E58E 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    font-weight: 600;
+                }
+            }
+
+        }
+
+        .bet-card {
+
+            padding: 18px;
+            border-radius: 16px;
+            background: #091015;
+
+            .bet-card-info {
+                display: grid;
+                grid-template-columns: 1fr 4fr;
+                gap: 15px;
+                border-bottom: 1px solid #111E27;
+
+                .date-row {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    p {
+                        background: #07284B;
+                        padding: 8px 10px;
+                        border-radius: 30px;
+                    }
+                }
+
+                .teams-row {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    text-align: left;
+                    margin-top: 12px;
+
+                    p {
+                        text-align: left;
+                    }
+
+                    img {
+                        width: 23px;
+                    }
+
+                    .point {
+                        color: #00B44E;
+
+                    }
+
+                    .red {
+                        color: #B40000;
+
+                    }
+                }
+            }
+
+            .card-footer {
+                margin-top: 12px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 15px;
+                text-align: left;
+
+                label {
+                    font-weight: 600;
+
+                }
+
+                .text {
+                    background: #07284B;
+                    padding: 8px 10px;
+                    border-radius: 30px;
+                    margin-top: 10px;
+                }
+
+                .wager-btn {
+                    margin-top: 25px;
+                    box-shadow: 0px -1.5px 7.3px 0px #0075FF inset;
+                    height: 40px;
+
+
+                }
+            }
+
+        }
+    }
+}
+
+
+
+@media (max-width: 750px) {
+    .wages-container {
+      
+        .wages-content {
+            margin-top: 30px;
+            .ant-row{
+                margin-left: 0px !important;
+                margin-right: 0px !important;
+            }
+
+            .ant-tabs-nav {
+                &::before {}
+            }
+
+
+            .ant-tabs-nav-list {}
+
+            .ant-tabs-tab-btn {}
+
+            .ant-tabs-tab-active {
+                .ant-tabs-tab-btn {}
+
+            }
+
+            .ant-tabs-ink-bar {}
+
+            h1 {
+
+                span {}
+            }
+
+            .wages-radio {
+                flex-wrap: wrap;
+                gap: 10px;
+
+                .ant-radio-button-wrapper {}
+
+                .ant-radio-button-wrapper-checked {
+                    span {}
+                }
+
+            }
+
+            .bet-card {
+
+
+
+                .bet-card-info {
+
+
+                    .date-row {
+
+
+                        p {}
+                    }
+
+                    .teams-row {
+
+                        p {}
+
+                        img {}
+
+                        .point {}
+
+                        .red {}
+                    }
+                }
+
+                .card-footer {
+
+
+                    label {}
+
+                    .text {}
+
+                    .wager-btn {}
+                }
+
+            }
+        }
+    }
+}

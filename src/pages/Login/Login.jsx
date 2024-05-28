@@ -39,9 +39,6 @@ const Login = () => {
           onFinishFailed={onFinishFailed}
           autoComplete="off"
           className="login-form"
-          style={{
-            maxWidth: 600,
-          }}
         >
           <Form.Item
             name="email"
